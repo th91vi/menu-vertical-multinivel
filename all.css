@@ -15,8 +15,8 @@ a {
 
 .menu-container {
   width: 100%;
-  border-radius: 5px;
   overflow: hidden;
+  border-radius: 5px;
 }
 
 input[type=checkbox] {
@@ -29,7 +29,6 @@ label, a {
   position: relative;
   display: block;
   padding: 18px 18px 18px 16px;
-  background-color: #a5a5a5;
   box-shadow: inset 0 -2px #ccc;
   color: #fff;
   margin-bottom: 0;
@@ -37,13 +36,11 @@ label, a {
 }
 
 .has-children a, .has-children li label {
-  background: #c8c8c8;
   color: #696969;
   font-size: 13px;
 }
 
 .has-children li.has-children label, .has-children li.has-children a {
-  background: #d2cece;
   color: #696969;
 }
 
@@ -82,6 +79,38 @@ input[type=checkbox]:checked + label:nth-of-type(n) + ul {
   /* use label:nth-of-type(n) to fix a bug on safari (<= 8.0.8) with multiple adjacent-sibling selectors*/
   /* show children when item is checked */
   display: block;
+}
+
+/* ### CSS Funcional ### */
+
+.curva-topo {
+  border-radius: 5px 5px 0 0;
+}
+
+.curva-base {
+  border-radius: 0 0 5px 5px;
+}
+
+.bg-cinza-escuro {
+  background-color: #404040;
+}
+.bg-cinza-medio {
+  background-color: #808080;
+}
+.bg-cinza-claro {
+  background-color: #bfbfbf;
+}
+.box-shadow-zero {
+  box-shadow: inset 0 0 #ccc;
+}
+.fonte-cinza-escuro {
+  color: #404040;
+}
+.fonte-cinza-medio {
+  color: #808080;
+}
+.fonte-cinza-claro {
+  color: #bfbfbf;
 }
 
 label[for=servicos]::before {
@@ -140,8 +169,4 @@ label[for=resultados]::before {
     height: auto;
     margin: -5px 20px 0 0;
     float: left;
-}
-.menu-level-1 li:nth-of-type(8) a {
-    border-radius: 0 0 5px 5px;
-    box-shadow: none;
 }
