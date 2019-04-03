@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="all.css">
-    <title>Menu vertical multinível</title>
+    <title>Rede Primavera Teste</title>
 </head>
 
 <body>
-    <div class="container my-4">
-        <div class="row">
+    <div class="container">
+        <div class="row  my-1">
             <div class="col">
                 <h1 class="display-4 text-center">
                     Rede Primavera
@@ -21,99 +21,115 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-9">
-                <img src="img/photo-1505751172876-fa1923c5c528.jpg" class="img-fluid py-1">
-            </div>
-            <div class="col-md-3">
+            <div class="col-md-8 offset-1">
                 <div class="row">
-                    <a href="https://nwdsk.co/SzBN2" class="btn-atendimento box-shadow-zero">Central de Atendimento</a>
-                </div>
-                <div class="row">
-                    <h2 class="texto-cor-laranja">Exames Laboratoriais</h2>
-                    <div class="menu-container">
-                        <ul class="menu-level-1 bg-cinza-escuro fonte-cinza-claro curva-base">
-                            <li class="has-children">
-                                <input type="checkbox" name="resultados" id="resultados">
-                                <label for="resultados">Resutados de exames<br />Laboratoriais</label>
-                                <ul class="menu-level-2 bg-cinza-medio">
-                                    <li class="has-children">
-                                        <input type="checkbox" name="diagnoseBarao" id="diagnoseBarao">
-                                        <label for="diagnoseBarao">Diagnose Barão de Maruim</label>
-                                        <ul class="menu-level-3 bg-cinza-claro">
-                                            <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
-                                                    realizados até dia 31/10/18</a></li>
-                                            <li><a
-                                                    href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
-                                                    realizados a partir de 01/11/18</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Diagnose Campos</a></li>
-                                    <li class="has-children">
-                                        <input type="checkbox" name="diagnoseGoncalo" id="diagnoseGoncalo">
-                                        <label for="diagnoseGoncalo">Diagnose Gonçalo Prado</label>
-                                        <ul class="menu-level-3 bg-cinza-claro">
-                                            <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
-                                                    realizados até dia 31/10/18</a></li>
-                                            <li><a
-                                                    href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
-                                                    realizados a partir de 01/11/18</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#!">Policlin Itabaiana</a></li>
-                                    <li class="has-children">
-                                        <input type="checkbox" name="policlinAugustoF" id="policlinAugustoF">
-                                        <label for="policlinAugustoF">Policlin Augusto Franco</label>
-                                        <ul class="menu-level-3 bg-cinza-claro">
-                                            <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
-                                                    realizados até dia 31/10/18</a></li>
-                                            <li><a
-                                                    href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
-                                                    realizados a partir de 01/11/18</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="has-children">
-                                        <input type="checkbox" name="policlinSiqueira" id="policlinSiqueira">
-                                        <label for="policlinSiqueira">Policlin Siqueira Campos</label>
-                                        <ul class="menu-level-3 bg-cinza-claro">
-                                            <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
-                                                    realizados até dia 31/10/18</a></li>
-                                            <li><a
-                                                    href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
-                                                    realizados a partir de 01/11/18</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a
-                                            href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Hospital</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a class="box-shadow-zero" href="#!">Preparação para Exames</a></li>
-                        </ul>
+                    <div class="col">
+                        <img src="img/primavera-placeholder.jpg" class="img-fluid py-1 float-right">
                     </div>
                 </div>
                 <div class="row">
-                    <h2 class="texto-cor-laranja">Acesso Rápido</h2>
-                    <div class="menu-container">
-                        <ul class="menu-level-1 bg-cinza-escuro fonte-cinza-claro curva-base">
-                            <li class="has-children">
-                                <input type="checkbox" name="servicos" id="servicos">
-                                <label class="curva-topo" for="servicos">Serviços Médicos do<br />Hospital
-                                    Primavera</label>
-                                <ul class="menu-level-2 bg-cinza-medio">
-                                    <li><a href="#!">Consultas</a></li>
-                                    <li><a href="#!">Exames</a></li>
-                                </ul>
-                            </li>
-                            <li class="has-children">
-                                <input type="checkbox" name="orcamento" id="orcamento">
-                                <label for="orcamento">Solicitação de<br />Orçamento</label>
-                                <ul class="menu-level-2 bg-cinza-medio fonte-cinza-claro">
-                                    <li><a href="#!">Consultas</a></li>
-                                    <li><a href="#!">Exames</a></li>
-                                    <li><a href="#!">Procedimento Cirúrgico</a></li>
-                                </ul>
-                            </li>
-                            <!-- <li class="has-children">
+                    <div class="col">
+                        <h4>O Atendimento Domiciliar acompanha seu ritmo e vai aonde você estiver</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="row">
+                    <div class="col">
+                        <a href="https://nwdsk.co/SzBN2" class="btn-atendimento box-shadow-zero">Central de
+                            Atendimento</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="texto-cor-laranja">Exames Laboratoriais</h2>
+                        <div class="menu-container">
+                            <ul class="menu-level-1 bg-cinza-escuro fonte-cinza-claro curva-base">
+                                <li class="has-children">
+                                    <input type="checkbox" name="resultados" id="resultados">
+                                    <label for="resultados">Resutados de exames<br />Laboratoriais</label>
+                                    <ul class="menu-level-2 bg-cinza-medio">
+                                        <li class="has-children">
+                                            <input type="checkbox" name="diagnoseBarao" id="diagnoseBarao">
+                                            <label for="diagnoseBarao">Diagnose Barão de Maruim</label>
+                                            <ul class="menu-level-3 bg-cinza-claro">
+                                                <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
+                                                        realizados até dia 31/10/18</a></li>
+                                                <li><a
+                                                        href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
+                                                        realizados a partir de 01/11/18</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#!">Diagnose Campos</a></li>
+                                        <li class="has-children">
+                                            <input type="checkbox" name="diagnoseGoncalo" id="diagnoseGoncalo">
+                                            <label for="diagnoseGoncalo">Diagnose Gonçalo Prado</label>
+                                            <ul class="menu-level-3 bg-cinza-claro">
+                                                <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
+                                                        realizados até dia 31/10/18</a></li>
+                                                <li><a
+                                                        href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
+                                                        realizados a partir de 01/11/18</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#!">Policlin Itabaiana</a></li>
+                                        <li class="has-children">
+                                            <input type="checkbox" name="policlinAugustoF" id="policlinAugustoF">
+                                            <label for="policlinAugustoF">Policlin Augusto Franco</label>
+                                            <ul class="menu-level-3 bg-cinza-claro">
+                                                <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
+                                                        realizados até dia 31/10/18</a></li>
+                                                <li><a
+                                                        href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
+                                                        realizados a partir de 01/11/18</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-children">
+                                            <input type="checkbox" name="policlinSiqueira" id="policlinSiqueira">
+                                            <label for="policlinSiqueira">Policlin Siqueira Campos</label>
+                                            <ul class="menu-level-3 bg-cinza-claro">
+                                                <li><a href="http://sistemas.grupoprimavera.med.br/sidwebsite/">Exames
+                                                        realizados até dia 31/10/18</a></li>
+                                                <li><a
+                                                        href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Exames
+                                                        realizados a partir de 01/11/18</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a
+                                                href="http://sistemas3.grupoprimavera.med.br:8080/LaboratorioWeb/indexLaboratorio.jsp">Hospital</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="item-lista-preparo-exames"><a class="box-shadow-zero" href="#!">Preparação
+                                        para Exames</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2 class="texto-cor-laranja">Acesso Rápido</h2>
+                        <div class="menu-container">
+                            <ul class="menu-level-1 bg-cinza-escuro fonte-cinza-claro curva-base">
+                                <li class="has-children">
+                                    <input type="checkbox" name="servicos" id="servicos">
+                                    <label class="curva-topo" for="servicos">Serviços Médicos do<br />Hospital
+                                        Primavera</label>
+                                    <ul class="menu-level-2 bg-cinza-medio">
+                                        <li><a href="#!">Consultas</a></li>
+                                        <li><a href="#!">Exames</a></li>
+                                    </ul>
+                                </li>
+                                <li class="has-children">
+                                    <input type="checkbox" name="orcamento" id="orcamento">
+                                    <label for="orcamento">Solicitação de<br />Orçamento</label>
+                                    <ul class="menu-level-2 bg-cinza-medio fonte-cinza-claro">
+                                        <li><a href="#!">Consultas</a></li>
+                                        <li><a href="#!">Exames</a></li>
+                                        <li><a href="#!">Procedimento Cirúrgico</a></li>
+                                    </ul>
+                                </li>
+                                <!-- <li class="has-children">
                                 <input type="checkbox" name="resultados" id="resultados">
                                 <label for="resultados">Resutados de exames<br />Laboratoriais</label>
                                 <ul class="menu-level-2 bg-cinza-medio">
@@ -168,15 +184,24 @@
                                     </li>
                                 </ul>
                             </li> -->
-                            <li class="item-lista-planos-convenios"><a href="https://www.redeprimavera.com.br/convenios">Planos e Convênios<br>Rede
-                                    Primavera</a></li>
-                            <li class="item-lista-especialidades"><a href="https://www.redeprimavera.com.br/guia-especialidades">Especialidades da<br>Rede
-                                    Primavera</a></li>
-                            <li class="item-lista-videos"><a href="https://www.redeprimavera.com.br/videos">Vídeos</a></li>
-                            <li class="item-lista-fornecedor"><a href="https://www.redeprimavera.com.br/fornecedor">Seja um fornecedor</a></li>
-                            <li class="item-lista-intranet"><a class="box-shadow-zero"
-                                    href="https://primavera.alfamaweb.com.br/intranet/login">Acesso à intranet</a></li>
-                        </ul>
+                                <li class="item-lista-planos-convenios"><a
+                                        href="https://www.redeprimavera.com.br/convenios">Planos e Convênios<br>Rede
+                                        Primavera</a></li>
+                                <li class="item-lista-especialidades"><a
+                                        href="https://www.redeprimavera.com.br/guia-especialidades">Especialidades
+                                        da<br>Rede
+                                        Primavera</a></li>
+                                <li class="item-lista-videos"><a
+                                        href="https://www.redeprimavera.com.br/videos">Vídeos</a>
+                                </li>
+                                <li class="item-lista-fornecedor"><a
+                                        href="https://www.redeprimavera.com.br/fornecedor">Seja
+                                        um fornecedor</a></li>
+                                <li class="item-lista-intranet"><a class="box-shadow-zero"
+                                        href="https://primavera.alfamaweb.com.br/intranet/login">Acesso à intranet</a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -186,13 +211,13 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>

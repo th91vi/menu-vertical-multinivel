@@ -15,7 +15,7 @@ a {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 27px;
 }
 
 .btn-atendimento {
@@ -39,8 +39,8 @@ h2 {
   content: url(img/icon/icon-atendimento.png);
   width: 24px;
   height: auto;
-  margin: 4px 5px 0px 0;
-  float: left;
+  margin: 0px 5px;
+  vertical-align: middle;
 }
 
 .menu-container {
@@ -61,7 +61,7 @@ a {
   display: block;
   padding: 18px 18px 18px 16px;
   box-shadow: inset 0 -2px #ccc;
-  color: #fff;
+  color: #696969;
   margin-bottom: 0;
   font-size: 13px;
 }
@@ -114,7 +114,7 @@ ul.menu-level-1 li a {
 ul.menu-level-1 li a:hover,
 ul.menu-level-2 li a:hover,
 ul.menu-level-3 li a:hover {
-  color: inherit;
+  color: #4d4d4d;
   text-decoration: none;
 }
 
@@ -126,7 +126,7 @@ input[type=checkbox]:checked+label:nth-of-type(n)+ul {
   /*
       reset the height when checkbox is checked
       */
-  max-height: 1000px;
+  max-height: 954px;
 }
 
 /* ### CSS Funcional ### */
@@ -140,15 +140,15 @@ input[type=checkbox]:checked+label:nth-of-type(n)+ul {
 }
 
 .bg-cinza-escuro {
-  background-color: #404040;
+  background-color: #bfbfbf;
 }
 
 .bg-cinza-medio {
-  background-color: #808080;
+  background-color: #d9d9d9;
 }
 
 .bg-cinza-claro {
-  background-color: #bfbfbf;
+  background-color: #f2f2f2;
 }
 
 .box-shadow-zero {
@@ -182,15 +182,23 @@ label[for=orcamento]::before {
   content: url(img/icon/icon-resultado.png);
   width: 24px;
   height: auto;
-  margin: 10px 20px 10px 0;
+  margin: 5px 20px 0 0;
   float: left;
 }
 
 label[for=resultados]::before {
-  content: url(img/icon/icon-resultado.png);
+  content: url(img/icon/icon-resultados-exames.png);
   width: 24px;
   height: auto;
-  margin: 10px 20px 10px 0;
+  margin: 5px 20px 10px 0;
+  float: left;
+}
+
+.item-lista-preparo-exames a:before {
+  content: url(img/icon/icon-preparo-exames.png);
+  width: 24px;
+  height: auto;
+  margin: -5px 20px 0 0;
   float: left;
 }
 
@@ -198,7 +206,7 @@ label[for=resultados]::before {
   content: url(img/icon/icon-planos.png);
   width: 24px;
   height: auto;
-  margin: 10px 20px 10px 0;
+  margin: 5px 20px 0 0;
   float: left;
 }
 
